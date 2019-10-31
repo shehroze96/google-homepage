@@ -1,4 +1,11 @@
+#first-part-header{
+    width: 50%;
+    float:right;
+    height: 100%;
+}
+
 #second-part-header{
+    width: 50%;
     float:right;
 }
 
@@ -6,7 +13,9 @@
     float:right;
 }
 
-#google-logo-centre {
+.img{
     display: block;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
