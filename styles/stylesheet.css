@@ -1,12 +1,19 @@
 #first-part-header{
     width: 50%;
-    float:right;
-    height: 100%;
 }
 
-#second-part-header{
+#second-part-header { 
     width: 50%;
-    float:right;
+    float: right;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.wrapper #second-part-header *{
+    float: right;
+    /*Need to separate buttons */
 }
 
 #second-part-footer{
