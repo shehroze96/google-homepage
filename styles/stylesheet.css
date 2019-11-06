@@ -1,10 +1,12 @@
 #first-part-header{
     width: 50%;
+    padding: 5px;
 }
 
 #second-part-header { 
     width: 50%;
     float: right;
+    padding: 5px;
 }
 
 .wrapper {
@@ -14,15 +16,43 @@
 .wrapper #second-part-header *{
     float: right;
     /*Need to separate buttons */
+    margin-right: 10px;
 }
 
 #second-part-footer{
-    float:right;
+    float: right;
 }
 
-.img{
+.google-logo-centre img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+#search-bar{
+    text-align: center;
+}
+
+.search-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#first-part-footer {
     width: 50%;
 }
+
+#second-part-footer {
+    width: 50%;
+    align-items: flex-end;
+}
+
+.wrapper-2 {
+}
+
+    /*
+    position : fixed;
+    bottom : 0;
+    width: 50%;
+*/
