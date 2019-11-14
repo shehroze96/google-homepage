@@ -46,6 +46,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 20px;
 }
 
 #first-part-footer {
@@ -76,3 +77,7 @@
     bottom : 0;
     width: 50%;
 */
+
+#google-search {
+    margin-right: 10px;
+}
